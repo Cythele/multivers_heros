@@ -1,0 +1,539 @@
+body {
+	font-size: 1.2em;
+	font-family: Noto Sans, sans-serif;
+	display: table;
+	width: 100%;
+}
+html {
+	background: url(img/background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+#titreCharge {
+	padding: 0;
+	margin: 0;
+}
+titreIndex>h1 {
+	padding-top: 10%;
+}
+h1, h2 {
+	color: white;
+}
+#sstitreCharge {
+	color: white;
+	text-align: center;
+}
+h1>img {
+	padding-top: 2%;
+	height: 100px;
+	width: 200px;
+}
+#formInventaire {
+	color: white;
+}
+h1, #content, #avatar, .illustrations {
+	text-align: center;
+}
+#content>p {
+	color: white;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: justify;
+}
+header {
+	border-top: 1px solid black;
+}
+footer {
+	display: table-row;
+	height: 100px;
+	color: white;
+	text-align: center;
+	margin-top: 5%;
+	height: 10px;
+}
+footer>p {
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 10px;
+	margin-top: 5%;
+}
+fieldset {
+	border: 0;
+	padding: 0;
+	margin-left: 0px;
+	margin-top: 3%;
+}
+fieldset>legend {
+	padding-bottom: 20px;
+}
+.lienChoixHistoire, .choixAcceuil {
+	border: 1px solid white;
+	padding: 10px;
+	margin-top: 10%;
+	display: block;
+	width: 50%;
+	color: white;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+	margin: 20%;
+}
+.liensChoixLi {
+	display: inline-block;
+	border: 1px solid white;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 20px 0px 20px;
+	margin: 20px;
+	text-align: center;
+}
+.lienChoixPerso {
+	color: white;
+	text-decoration: none;
+}
+#contenuliens {
+	text-align: center;
+}
+.choixParagraphe {
+	padding: 20px;
+	margin: 20px;
+	margin-top: 2%;
+	display: inline-block;
+	border: 1px solid white;
+	color: white;
+	text-decoration: none;
+	background-color: Transparent;
+}
+.choixParagraphe:hover {
+	-webkit-transition: 0.5s all ease;
+	background-color: #e3e3e3;
+	color: #000;
+	transition: all .2s ease-in-out;
+}
+.choixParagraphe:visited {
+	text-decoration: none;
+}
+.size {
+	display: none;
+}
+#content>h1 {
+	/* titre de la page creer perso*/
+	color: white;
+	padding: 0.5%;
+}
+.genre {
+	display: inline-block;
+}
+.illustrations, .metiers {
+	display: block;
+	height: 200px;
+	width: 200px;
+}
+.metiers {
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+}
+.metiers>img {
+	padding-left: 50px;
+}
+.classes {
+	display: inline-block;
+}
+.classes>img {
+	display: block;
+}
+.metiers>img {
+	margin: 5px;
+	padding: 0;
+}
+#avatar {
+	height: 150px;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3%;
+}
+#identite {
+	margin-top: 5%;
+	text-align: center;
+	border: 1px solid white;
+	color: white;
+	padding-bottom: 2%;
+}
+#classeMetier {
+	margin-top: 1%;
+	vertical-align: top;
+}
+#fistName {
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 1px solid black;
+}
+input#firstName, input#name {
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 1px solid black;
+	color: white;
+}
+#contentParagraphes {
+	text-align: center;
+	margin-top: 5%;
+}
+#headerParagraphe {
+	margin-left: 8%;
+	margin-right: 8%;
+}
+#texteHeaderPara {
+	border: 1px solid white;
+	text-align: left;
+	height: 72px;
+	color: white;
+	overflow: hidden;
+	margin-left: 8%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#paragraphe {
+	text-align: center;
+}
+#imagePerso {
+	float: right;
+	width: 100px;
+	padding: 1px 0;
+	margin-right: 8%;
+}
+.inventaire>a {
+	height: 72px;
+	width: 72px;
+	display: block-inline;
+	border: none;
+	padding: 0;
+	background: none;
+	border: 1px solid black;
+}
+.inventaire>img {
+	height: 72px;
+	width: 72px;
+}
+#texteHeaderPara>h1 {
+	text-align: left;
+	padding-left: 5%;
+	margin: 0;
+	padding: 0;
+}
+.contenuPararaphe {
+	margin-top: 5%;
+	text-align: justify;
+	margin-left: 8%;
+	margin-right: 8%;
+	color: white;
+}
+.choixAcceuil:hover, .choixAcceuil:focus {
+	margin-top: -20px;
+	-webkit-transition: 0.5s all ease;
+	background-color: #e3e3e3;
+	color: #000;
+	transition: all .2s ease-in-out;
+}
+#objetsAttaquesRelations {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	border: 1px solid white;
+}
+#formOptions {
+	display: -webkit-flex;
+	-webkit-flex-flow: row;
+}
+#titreCharge {
+	margin-top: 2%;
+}
+#infosPerso, #infosPerso>h2 {
+	text-align: center;
+	color: white;
+}
+#choixActions {
+	text-align: center;
+}
+#sauvegarder {
+	cursor: pointer;
+	border: 1px solid white;
+	background: none;
+}
+.choixActions {
+	/* Les liens */
+	color: white;
+	width: 100%;
+	text-decoration: none;
+	font-size: 1em;
+	border: 1px solid white;
+	padding: 1em;
+}
+#objet {
+	border: 1px solid black;
+	width: 30%;
+	vertical-align: middle;
+	display: inline-block;
+	height: 300px;
+}
+.descObjet {
+	padding: 2%;
+	height: 50px;
+}
+.lesObjets {
+	display: inline-block;
+	margin: 2%;
+}
+#titreCharge>a>img {
+	height: 100px;
+	width: 230px;
+}
+.retoursHistoire {
+	color: white;
+	left: 10%;
+	position: absolute;
+	padding: 1%;
+}
+#Listehistoire {
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	/*text-align:justify;*/
+	width: 80%;
+	border: 1px solid white;
+	padding: 20px;
+	margin-top: 1%;
+}
+.navlink {
+	/* ancre */
+	color: white;
+	text-decoration: underline;
+	position: absolute;
+	right: 5%;
+}
+.navlinkInventaire {
+	color: white;
+	text-decoration: underline;
+	position: absolute;
+	right: 10%;
+}
+legend {
+	color: white;
+}
+#contentOptions>p, #contentOptions {
+	text-align: center;
+	color: white;
+	padding-bottom: 2%;
+}
+.form-group {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.texte {
+	text-align: justify;
+}
+/* 500 et + */
+
+@media screen and (min-width: 500px) {
+	.lienChoixHistoire, .choixAcceuil {}
+	titreIndex>h1 {
+		padding-top: 10%;
+	}
+	texteHeaderPara>h1 {
+		margin: 0;
+		padding-left: 0;
+	}
+}
+/* 380 et + */
+
+@media screen and (min-width: 380px) {
+	#titreCharge>a>img {
+		/* padding-top:2%;
+		height:150px;
+		width:270px;*/
+	}
+}
+/* 500 et moins */
+
+@media screen and (max-width: 500px) {
+	#texteHeaderPara>h1 {
+		font-size: 1.2em;
+	}
+	#titreCharge>a>img {
+		/*height:150px;
+	width:210px;
+	border:1px solid red;*/
+	}
+	#texteHeaderPara {
+		height: auto;
+		margin-left: 8%;
+		margin-right: 8%;
+		text-align: center;
+	}
+	#texteHeaderPara>h1 {
+		text-align: center;
+	}
+	#imagePerso {
+		float: none;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+	.inventaire>img {
+		margin-top: 20%;
+	}
+	#titreCharge {
+		margin-top: 10%;
+	}
+	.liensChoixLi {
+		padding: 2%;
+	}
+	/*h1{padding-top:10%;}*/
+	#liensAccueil {
+		margin-top: 20%;
+	}
+	#content {
+		padding-top: 3%;
+	}
+}
+/* 700 et moins */
+
+@media screen and (max-width: 650px) {
+	#formOptions {
+		display: block;
+	}
+	.choixActions {
+		display: inline-block;
+		padding: 0em;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+/* 500 et + */
+
+@media screen and (min-width: 500px) {
+	.lienChoixHistoire, .choixAcceuil {
+		display: inline-block;
+		width: 20%;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+	.form-group {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.form-group>legend {
+		text-align: left;
+		padding: 20px;
+		border: 1px solid white;
+	}
+	.groupTheme {
+		border: 1px solid white;
+	}
+	.form-group>label {
+		line-height: 80px;
+		width: 30%;
+		display: inline-block;
+	}
+	#content {
+		margin-top: 10%;
+	}
+	h1>img {
+		padding-top: 2%;
+		height: 150px;
+		width: 270px;
+	}
+	#titreCharge>a>img {
+		height: 160px;
+		width: 280px;
+	}
+	texteHeaderPara>h1 {
+		margin: 0;
+		padding: 0;
+	}
+}
+/* 800px et + */
+
+@media screen and (min-width: 800px) {
+	titreIndex>h1 {
+		padding-top: 10%;
+	}
+	#texteHeaderPara>h1 {}
+	#texteHeaderPara {}
+	#content {
+		margin: 5% 5% 0 5%;
+	}
+	footer>p {
+		margin-top: 1%;
+	}
+	.lienChoixHistoire, .choixAcceuil {
+		margin-top: 5%;
+	}
+	#stat {
+		display: inline-block;
+		width: 30%;
+	}
+	#perso {
+		display: inline-block;
+		width: 50%;
+		vertical-align: top;
+	}
+}
+/* 1000 et + */
+
+@media screen and (min-width: 1000px) {
+	body>h1 {
+		padding-top: 6%;
+	}
+	footer>p {
+		margin-top: 1%;
+	}
+	.lienChoixHistoire, .choixAcceuil {
+		margin-bottom: 0;
+	}
+	texteHeaderPara>h1 {
+		margin: 0;
+		padding: 0;
+	}
+}
+/* 1400 et moins */
+
+@media screen and (max-width: 1400px) {
+	#texteHeaderPara>h1 {
+		font-size: 1.3em;
+	}
+}
+/* 1400 et + */
+
+@media screen and (min-width: 1400px) {
+	#content>p {
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: 1.3em;
+	}
+	h1>img {
+		height: 222px;
+		width: 400px;
+	}
+	.lienChoixHistoire, .choixAcceuil {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	footer>p {
+		margin-top: 1%;
+	}
+}
